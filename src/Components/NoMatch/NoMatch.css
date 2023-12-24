@@ -1,0 +1,11 @@
+.NoMatch .container{
+    height: 88vh;
+}
+.NoMatch .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NoMatch .container div{
+    font-size: 20px;
+}

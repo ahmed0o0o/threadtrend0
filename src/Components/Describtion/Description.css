@@ -1,0 +1,26 @@
+.description{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.description .descNav1,.description .descNav2{
+    display: inline-block;
+    border-top: .5px;
+    border-left: .5px;
+    border-right: .5px;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.473);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.description .descNav2{
+    border-left: 0px;
+}
+.description .container .content{
+    border: .5px solid rgba(128, 128, 128, 0.473);
+    padding: 30px;
+    font-size: 14px;
+}

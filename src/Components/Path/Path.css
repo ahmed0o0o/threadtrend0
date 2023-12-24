@@ -1,0 +1,13 @@
+.path{
+    margin-bottom: 40px;
+    padding: 0px 30px;
+}
+.path .pathP{
+    font-size: 12px;
+}
+.path .pathP img{
+    width: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 1px;
+}

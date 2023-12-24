@@ -1,0 +1,63 @@
+.loginSignUp{
+    background-color: rgba(221, 160, 221, 0.151);
+}
+.loginSignUp .container{
+    display: grid;
+    place-items: center;
+    min-height: 94vh;
+    padding: 10px 20px;
+}
+.loginSignUp .formH2{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.loginSignUp .content{
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 5px;
+}
+.loginSignUp .logInForm input{
+    margin-bottom: 15px;
+    height: 40px;
+    font-size: 14px;
+}
+.loginSignUp .logInForm .Btn{
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+}
+.loginSignUp .logInForm .Btn:hover{
+    color: red;
+    outline: red solid 1px;
+    background-color: transparent;
+}
+.loginSignUp .down{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.loginSignUp .down .terms{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.loginSignUp .down .checkBox{
+    margin: 0;
+    width: 12px;
+    align-self: flex-end;
+}
+.loginSignUp .p{
+    font-size: 14px;
+}
+.loginSignUp .p .s a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+.loginSignUp form .invalid-feedback{
+    margin-top: -12px;
+    padding-bottom: 10px;
+}

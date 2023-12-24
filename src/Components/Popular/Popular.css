@@ -1,0 +1,19 @@
+.popular{
+    margin-top: 100px;
+}
+.popularH1{
+    text-align: center;
+}
+.popularH1 hr{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.popular .col{
+    display: flex;
+    justify-content: center;
+}
+.popular .row{
+    overflow-x: hidden;
+}

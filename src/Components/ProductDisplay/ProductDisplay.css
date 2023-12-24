@@ -1,0 +1,113 @@
+.productDisplay .row{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.productDisplay .row .leftRow .col-3{
+    display: flex;
+    flex-direction: column;
+}
+.productDisplay .row .leftRow .col-3 img{
+    padding-top: 5px;
+    cursor: pointer;
+}
+.productDisplay .row .leftRow .col-9{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+}
+.productDisplay .row .leftRow .col-9 img{
+    height: 100%;
+    padding-top: 5px;
+}
+.productDisplay .right{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.productDisplay .productName{
+    font-weight: 600;
+}
+.productDisplay .stars .number{
+    font-size: 13px;
+    margin-left: 5px;
+}
+.productDisplay .stars img{
+    width: 18px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.productDisplay .prices{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.productDisplay .oldPrice{
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    text-decoration: line-through;
+}
+.productDisplay .newPrice{
+    font-weight: 600;
+    font-size: 17px;
+    color: green;
+    margin-left: 20px;
+}
+.productDisplay .productDescribtion p{
+    font-size: 14px;
+}
+.productDisplay .selectSize{
+    font-size: 15px;
+    font-weight: 600;
+}
+.productDisplay .sizes{
+    display: flex;
+    margin-bottom: 25px;
+}
+.productDisplay .sizes .size{
+    border: .5px rgba(128, 128, 128, 0.288) solid;
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600; 
+    background-color: rgba(128, 128, 128, 0.027);
+    cursor: pointer;
+}
+.productDisplay .sizes .size:hover{
+    border: .5px black solid;
+}
+.productDisplay .sizes .l{
+    margin-left: 10px;
+}
+.productDisplay .cartBtn{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.productDisplay .cartBtn:hover{
+    background-color: transparent;
+    color: red;
+    outline: 1px red solid;
+}
+.productDisplay .additional{
+    margin-top: 40px;
+    font-size: 11px;
+}
+.productDisplay .additional .c{
+    font-weight: 700;
+}
+.productDisplay .sizes .active{
+    text-decoration: none;
+    color: black;
+}

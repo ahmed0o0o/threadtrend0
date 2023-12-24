@@ -1,0 +1,45 @@
+.offer{
+    margin-top: 100px;
+    padding: 50px;
+}
+.offer .container{
+    background: linear-gradient(180deg, #fde1ff,#e1ffea22 60%);
+    height: fit-content;
+}
+.offer .row{
+    height: fit-content;
+    padding: 0px 20px;
+}
+.offer .col{
+    display: grid;
+    place-items: center;
+}
+.offer .right{
+    height: fit-content;
+}
+.offer .left{
+    padding: 70px 0px;
+}
+.offer .right img{
+    width: 240px;
+}
+.offerP{
+    font-weight: 600;
+    font-size: 14px;    
+}
+.offerBtn{
+    background-color: red;
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.offerBtn:hover{
+    color: red;
+    background-color: transparent;
+    outline: 2px solid red;
+}

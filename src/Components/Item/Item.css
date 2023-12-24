@@ -1,0 +1,51 @@
+.item{
+    margin-top: 50px;
+}
+.item .pName{
+    cursor: pointer;
+}
+.itemImg{
+    width: min-content;
+}
+.itemImg img{
+    width: 240px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+.itemImg img:hover{
+    cursor: pointer;
+    transform: scale(1.018);
+}
+.itemP{
+    width: 230px;
+    font-weight:500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.pc{
+    margin-top: -10px;
+    font-size: 12px;
+}
+.itemPrices{
+    margin-top: -10px;
+}
+.itemPrices .newPrice{
+    font-weight: 700;
+    color: green;
+}
+.itemPrices .oldPrice{
+    text-decoration: line-through;
+    margin-left: 10px;
+    opacity: .5;
+}
+.itemPrices .cartBtn{
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+}

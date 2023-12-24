@@ -1,0 +1,16 @@
+.relatedProducts{
+    margin-top: 100px;
+}
+.relatedProducts .relatedP{
+    text-align: center;
+}
+.relatedProducts .row .col{
+    display: grid;
+    place-items: center;
+}
+.relatedProducts .relatedP hr{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}

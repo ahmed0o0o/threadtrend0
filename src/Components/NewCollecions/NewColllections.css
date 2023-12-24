@@ -1,0 +1,19 @@
+.newColllections{
+    margin-top: 100px;
+}
+.newCollectionsH1{
+    text-align: center;
+}
+.newCollectionsH1 hr{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.newColllections .col{
+    display: flex;
+    justify-content: center;
+}
+.newColllections .row{
+    overflow-x: hidden;
+}
